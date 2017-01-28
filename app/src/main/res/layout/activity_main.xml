@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.washington.srloftis.lifecounter.MainActivity">
+
+    <LinearLayout
+        style="@style/Player"
+        android:background="#26A34D"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/Text"
+            android:text="Player 1"/>
+        <Button
+            style="@style/Button"
+            android:text="-5"
+            android:id="@+id/btn11" />
+        <Button
+            style="@style/Button"
+            android:text="-"
+            android:id="@+id/btn12" />
+        <TextView
+            style="@style/Text"
+            android:text="@string/start_life"
+            android:id="@+id/Player1"/>
+        <Button
+            style="@style/Button"
+            android:text="+"
+            android:id="@+id/btn13" />
+        <Button
+            style="@style/Button"
+            android:text="+5"
+            android:id="@+id/btn14" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/Player"
+        android:background="#15A3AD"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/Text"
+            android:text="Player 2"/>
+        <Button
+            style="@style/Button"
+            android:text="-5"
+            android:id="@+id/btn21"/>
+        <Button
+            style="@style/Button"
+            android:text="-"
+            android:id="@+id/btn22"/>
+        <TextView
+            style="@style/Text"
+            android:text="@string/start_life"
+            android:id="@+id/Player2"/>
+        <Button
+            style="@style/Button"
+            android:text="+"
+            android:id="@+id/btn23"/>
+        <Button
+            style="@style/Button"
+            android:text="+5"
+            android:id="@+id/btn24"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/Player"
+        android:background="#AB22A2"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/Text"
+            android:text="Player 3"/>
+        <Button
+            style="@style/Button"
+            android:text="-5"
+            android:id="@+id/btn31"/>
+        <Button
+            style="@style/Button"
+            android:text="-"
+            android:id="@+id/btn32"/>
+        <TextView
+            style="@style/Text"
+            android:text="@string/start_life"
+            android:id="@+id/Player3"/>
+        <Button
+            style="@style/Button"
+            android:text="+"
+            android:id="@+id/btn33"/>
+        <Button
+            style="@style/Button"
+            android:text="+5"
+            android:id="@+id/btn34" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/Player"
+        android:background="#442FAD"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/Text"
+            android:text="Player 4"/>
+        <Button
+            style="@style/Button"
+            android:text="-5"
+            android:id="@+id/btn41" />
+        <Button
+            style="@style/Button"
+            android:text="-"
+            android:id="@+id/btn42" />
+        <TextView
+            style="@style/Text"
+            android:text="@string/start_life"
+            android:id="@+id/Player4"/>
+        <Button
+            style="@style/Button"
+            android:text="+"
+            android:id="@+id/btn43" />
+        <Button
+            style="@style/Button"
+            android:text="+5"
+            android:id="@+id/btn44" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:background="#000"
+        android:gravity="center"
+        android:id="@+id/loser"/>
+</LinearLayout>

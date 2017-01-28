@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Life Counter</string>
+    <string name="start_life">20</string>
+</resources>
